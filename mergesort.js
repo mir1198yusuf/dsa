@@ -14,7 +14,7 @@ function merge (left,right) {
     const res = []
     let i = 0, j=0
     while (i < left.length && j < right.length) {
-        if (left [i] < right[j]) {
+        if (left [i] <= right[j]) { // equal sign indicates stable sorting
             res.push(left[i])
             i++
         }
