@@ -36,7 +36,7 @@ root3.left.left.right = new Node(9);
 
 const root4 = new Node(0);
 
-const root5 = null;
+const root5 = null; // this is wrong test case because tree can never be null
 
 function isFullBinaryTree(root) {
     if (!root) {
